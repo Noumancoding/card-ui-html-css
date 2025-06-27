@@ -63,3 +63,10 @@ footer {
   font-weight: normal;
   color: #00000066;
 }
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
